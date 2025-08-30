@@ -1,0 +1,14 @@
+{
+  "booking_ref": "BOOK-M5JYOC",
+  "demo": true,
+  "service_id": "svc_2",
+  "service_name": "City of Parramatta \u2014 Community Centre",
+  "when": "next available",
+  "channel": "sms",
+  "contact": "0466226621",
+  "user_name": "Kartik",
+  "service_address": "10 Darcy St, Parramatta NSW 2150",
+  "service_phone": "(02) 9806 5050",
+  "timestamp": "2025-08-30T09:14:10.289858Z",
+  "status": "requested"
+}

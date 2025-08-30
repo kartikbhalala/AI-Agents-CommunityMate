@@ -1,0 +1,111 @@
+{
+  "profile": {
+    "name": null,
+    "language": "en",
+    "contact_channel": "sms",
+    "contact_value": null,
+    "consent": false,
+    "access_needs": [],
+    "home_address": null,
+    "home_lat": null,
+    "home_lon": null,
+    "transport_preference": "any"
+  },
+  "bookings": [],
+  "reminders": [],
+  "handoffs": [],
+  "last_results": [
+    {
+      "id": "svc_0",
+      "name": "Services Australia \u2014 Parramatta Service Centre",
+      "category": "Government Service Centre",
+      "address": "17-21 Macquarie St, Parramatta NSW 2150",
+      "lga": "",
+      "hours": "Mon\u2013Fri 8:30am\u20134:30pm",
+      "description": "Medicare, Centrelink and Child Support services.",
+      "phone": "132 307",
+      "email": "",
+      "website": "https://www.servicesaustralia.gov.au/",
+      "lat": -33.817083,
+      "lon": 151.005496,
+      "distance_km": 19.63,
+      "travel": {
+        "driving_minutes": 25,
+        "driving_km": 23.5,
+        "walking_minutes": 25,
+        "transit_minutes_est": 56,
+        "source": "osrm",
+        "map_links": {
+          "google": {
+            "driving": "https://www.google.com/maps/dir/?api=1&origin=-33.8698439%2C151.2082848&destination=-33.817083%2C151.005496&travelmode=driving",
+            "transit": "https://www.google.com/maps/dir/?api=1&origin=-33.8698439%2C151.2082848&destination=-33.817083%2C151.005496&travelmode=transit",
+            "walking": "https://www.google.com/maps/dir/?api=1&origin=-33.8698439%2C151.2082848&destination=-33.817083%2C151.005496&travelmode=walking"
+          },
+          "apple": {
+            "driving": "https://maps.apple.com/?saddr=-33.8698439,151.2082848&daddr=-33.817083,151.005496&dirflg=d",
+            "transit": "https://maps.apple.com/?saddr=-33.8698439,151.2082848&daddr=-33.817083,151.005496&dirflg=r",
+            "walking": "https://maps.apple.com/?saddr=-33.8698439,151.2082848&daddr=-33.817083,151.005496&dirflg=w"
+          }
+        }
+      },
+      "map_links": {
+        "google": {
+          "driving": "https://www.google.com/maps/dir/?api=1&origin=-33.8698439%2C151.2082848&destination=-33.817083%2C151.005496&travelmode=driving",
+          "transit": "https://www.google.com/maps/dir/?api=1&origin=-33.8698439%2C151.2082848&destination=-33.817083%2C151.005496&travelmode=transit",
+          "walking": "https://www.google.com/maps/dir/?api=1&origin=-33.8698439%2C151.2082848&destination=-33.817083%2C151.005496&travelmode=walking"
+        },
+        "apple": {
+          "driving": "https://maps.apple.com/?saddr=-33.8698439,151.2082848&daddr=-33.817083,151.005496&dirflg=d",
+          "transit": "https://maps.apple.com/?saddr=-33.8698439,151.2082848&daddr=-33.817083,151.005496&dirflg=r",
+          "walking": "https://maps.apple.com/?saddr=-33.8698439,151.2082848&daddr=-33.817083,151.005496&dirflg=w"
+        }
+      }
+    },
+    {
+      "id": "svc_2",
+      "name": "City of Parramatta \u2014 Community Centre",
+      "category": "Community Centre",
+      "address": "10 Darcy St, Parramatta NSW 2150",
+      "lga": "",
+      "hours": "Mon\u2013Fri 9:00am\u20135:00pm",
+      "description": "Local community programs and referrals.",
+      "phone": "(02) 9806 5050",
+      "email": "",
+      "website": "https://www.cityofparramatta.nsw.gov.au/",
+      "lat": -33.8178,
+      "lon": 151.0049,
+      "distance_km": 19.65,
+      "travel": {
+        "driving_minutes": 24,
+        "driving_km": 23.3,
+        "walking_minutes": 24,
+        "transit_minutes_est": 54,
+        "source": "osrm",
+        "map_links": {
+          "google": {
+            "driving": "https://www.google.com/maps/dir/?api=1&origin=-33.8698439%2C151.2082848&destination=-33.8178%2C151.0049&travelmode=driving",
+            "transit": "https://www.google.com/maps/dir/?api=1&origin=-33.8698439%2C151.2082848&destination=-33.8178%2C151.0049&travelmode=transit",
+            "walking": "https://www.google.com/maps/dir/?api=1&origin=-33.8698439%2C151.2082848&destination=-33.8178%2C151.0049&travelmode=walking"
+          },
+          "apple": {
+            "driving": "https://maps.apple.com/?saddr=-33.8698439,151.2082848&daddr=-33.8178,151.0049&dirflg=d",
+            "transit": "https://maps.apple.com/?saddr=-33.8698439,151.2082848&daddr=-33.8178,151.0049&dirflg=r",
+            "walking": "https://maps.apple.com/?saddr=-33.8698439,151.2082848&daddr=-33.8178,151.0049&dirflg=w"
+          }
+        }
+      },
+      "map_links": {
+        "google": {
+          "driving": "https://www.google.com/maps/dir/?api=1&origin=-33.8698439%2C151.2082848&destination=-33.8178%2C151.0049&travelmode=driving",
+          "transit": "https://www.google.com/maps/dir/?api=1&origin=-33.8698439%2C151.2082848&destination=-33.8178%2C151.0049&travelmode=transit",
+          "walking": "https://www.google.com/maps/dir/?api=1&origin=-33.8698439%2C151.2082848&destination=-33.8178%2C151.0049&travelmode=walking"
+        },
+        "apple": {
+          "driving": "https://maps.apple.com/?saddr=-33.8698439,151.2082848&daddr=-33.8178,151.0049&dirflg=d",
+          "transit": "https://maps.apple.com/?saddr=-33.8698439,151.2082848&daddr=-33.8178,151.0049&dirflg=r",
+          "walking": "https://maps.apple.com/?saddr=-33.8698439,151.2082848&daddr=-33.8178,151.0049&dirflg=w"
+        }
+      }
+    }
+  ]
+}

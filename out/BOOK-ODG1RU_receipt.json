@@ -1,0 +1,14 @@
+{
+  "booking_ref": "BOOK-ODG1RU",
+  "demo": true,
+  "service_id": "svc_5",
+  "service_name": "100 BROUGHAM ST",
+  "when": "next available",
+  "channel": "sms",
+  "contact": "9344544545",
+  "user_name": "kartik",
+  "service_address": "100 Brougham St, Geelong, VIC 3220",
+  "service_phone": "03 5272 5272",
+  "timestamp": "2025-08-30T19:50:08.054418Z",
+  "status": "requested"
+}

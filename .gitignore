@@ -1,0 +1,10 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Streamlit secrets
+.secrets.toml
+
+# Optional: OS files
+.DS_Store

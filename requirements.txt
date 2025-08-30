@@ -1,0 +1,20 @@
+# Core app
+streamlit>=1.30
+python-dotenv>=1.0
+pandas>=2.1
+requests>=2.31
+geopy>=2.4
+
+# LangChain + OpenAI
+langchain>=0.2.5
+langchain-openai>=0.1.7
+langchain-community>=0.2.5
+openai>=1.30
+tiktoken>=0.6
+pydantic>=2.6
+
+# Vector store
+faiss-cpu>=1.7.4
+
+# Voice input
+streamlit-mic-recorder>=0.0.8
