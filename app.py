@@ -918,27 +918,46 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 with st.sidebar:
+    # Logo
     st.image(str(Path(__file__).parent / "logo.jpeg"), use_container_width=True)
 
-    st.caption("Hackathon prototype — Australian government & community services assistant")
+    # Short description
     st.markdown(
-        "- Scope: Australian government and community/charity services only.\n"
-        "- Demo: No real bookings. Any bookings/forms/reminders write demo receipts to ./out.\n"
-        "- Travel: Car/walk via OSRM where possible; public transport is estimated.\n"
-        "- Privacy: Minimal local storage. Consent is required before bookings/forms/reminders.\n"
-        "- Safety: If you’re in immediate danger, call 000. For mental health crisis: Lifeline 13 11 14; Beyond Blue 1300 22 4636.\n"
+        "### CommunityMate\n"
+        "Australian government & community services assistant (Hackathon Prototype)"
     )
-    st.markdown("**Try prompts**")
+
+    # Quick info bullets
     st.markdown(
-        "- I need food relief near Parramatta NSW\n"
-        "- Nearest Medicare office (near me)\n"
-        "- Legal aid help near 2150\n"
-        "- Save my home as 10 Darcy St, Parramatta\n"
+        """
+**Scope:** Govt & community/charity services only  
+**Demo:** No real bookings. Demo outputs saved locally.  
+**Travel:** Car/walk via OSRM; public transport estimated  
+**Privacy:** Minimal local storage; consent required  
+**Note:** This is a demo — explore features and try different prompts!
+        """
     )
+
+    # Realistic suggested prompts
+    st.markdown("**Try these prompts:**")
+    st.markdown(
+        """
+- I need food relief for my family in Parramatta  
+- How can I get help for my son’s school fees?  
+- Nearest Medicare office near me  
+- Legal aid or advice for a rental dispute  
+- Support services for mental health  
+- How to apply for childcare assistance  
+- Save my home at 10 Darcy St, Parramatta
+        """
+    )
+
+    # Reset chat button
     if st.button("Reset chat"):
         for k in list(st.session_state.keys()):
             del st.session_state[k]
         st.rerun()
+
 def init_components():
     global STATE, INDEX
     if "cm_state" not in st.session_state:
