@@ -1,4 +1,4 @@
-# 🇦🇺 CommunityMate — Connecting New Citizens to Australian Democracy (Hackathon Demo)
+# 🇦🇺 CommunityMate — Connecting New Citizens to Australian Democracy
 
 CommunityMate is a Streamlit app prototype that helps new Australians:
 
